@@ -7,7 +7,7 @@ def poster_function() :
 
     """https://www.omdbapi.com/"""
 
-    omdbapi_API_KEY = "2f87f01f"
+    omdbapi_API_KEY = "???"
     PATH = "C:/suggestion_stocker/"
 
     def get_movie_poster(movie_name, year_of_release):
