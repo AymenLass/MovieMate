@@ -1,0 +1,211 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true">
+
+        <RelativeLayout android:id="@+id/content_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true">
+
+
+
+            <RelativeLayout android:id="@+id/page_movie_output_view_ek1"
+                android:layout_marginTop="0dp"
+                android:layout_marginStart="0dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                >
+
+                <View   android:id="@+id/_bg__movie_output_view_ek2"
+                    android:background="@drawable/_bg__movie_output_view_ek2_shape"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_width="393dp"
+                    android:layout_height="852dp"
+                    android:layout_centerHorizontal="true"/>
+
+
+                <RelativeLayout
+                    android:id="@+id/go_again_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/movie_info"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginStart="42dp"
+                    android:layout_marginTop="181dp">
+
+                    <View
+                        android:id="@+id/_bg__go_again_button_ek1"
+                        android:layout_width="325dp"
+                        android:layout_height="71dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginStart="-42dp"
+                        android:layout_marginTop="-521dp"
+                        android:background="@drawable/_bg__go_again_button_ek1_shape" />
+
+                    <View
+                        android:id="@+id/rectangle_7"
+                        android:layout_width="325dp"
+                        android:layout_height="71dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="0dp"
+                        android:background="@drawable/rectangle_7_shape" />
+
+                    <TextView
+                        android:id="@+id/go_again"
+                        android:layout_width="333dp"
+                        android:layout_height="80dp"
+                        android:layout_gravity="center_horizontal|center"
+                        android:layout_marginLeft="-5dp"
+                        android:layout_marginTop="0dp"
+                        android:gravity="center"
+                        android:text="@string/go_again_string"
+                        android:textColor="@color/_bg__movie_output_view_ek2_color"
+
+
+                        android:textSize="30sp"
+
+                        android:textStyle="bold"
+
+                        />
+
+                </RelativeLayout>
+
+
+                <RelativeLayout android:id="@+id/movie_info"
+                    android:layout_marginTop="270dp"
+                    android:layout_marginStart="33dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    >
+
+                    <View   android:id="@+id/_bg__movie_info_ek1"
+                        android:background="@drawable/_bg__movie_info_ek1_shape"
+                        android:layout_marginStart="-33dp"
+                        android:layout_marginTop="-270dp"
+                        android:layout_width="334dp"
+                        android:layout_height="186dp"
+                        android:layout_centerHorizontal="true"/>
+
+                    <TextView
+                        android:id="@+id/Thanking"
+                        android:layout_width="300dp"
+                        android:layout_height="70dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_gravity="center_horizontal|center"
+                        android:layout_marginLeft="-5dp"
+                        android:layout_marginTop="0dp"
+                        android:gravity="center"
+                        android:text="@string/Thank_You_For_Using_The_App"
+                        android:textColor="@color/purple_200"
+                        android:textSize="30sp"
+                        android:textStyle="bold"
+                        />
+
+                    <!--                    <TextView android:id="@+id/a_fun_and_stupid_movie_about_a_wannabe_rocker_turned_fraud_substitute_teacher_forming_a_rock_band_with_his_students_to_win_the_battle_of_the_bands"-->
+<!--                        android:textSize="18sp"-->
+<!--                        android:textColor="@color/school_of_rock__2009__color"-->
+<!--                        android:layout_marginLeft="9dp"-->
+<!--                        android:layout_marginTop="60dp"-->
+<!--                        android:layout_width="340.8dp"-->
+<!--                        android:layout_height="131.8dp"-->
+<!--                        android:text="@string/a_fun_and_stupid_movie_about_a_wannabe_rocker_turned_fraud_substitute_teacher_forming_a_rock_band_with_his_students_to_win_the_battle_of_the_bands_string"-->
+<!--                        android:layout_centerHorizontal="true"-->
+<!--                        />-->
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/info_stocker"
+                    android:layout_width="300dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="33dp"
+                    android:layout_marginTop="400dp"
+                    android:layout_centerHorizontal="true">
+
+
+                    <ImageView
+                        android:id="@+id/github_icon"
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+
+                        android:layout_marginTop="14dp"
+
+                        android:src="@drawable/github_icon" />
+
+<!--                    &lt;!&ndash; LinkedIn Icon &ndash;&gt;-->
+                    <ImageView
+                        android:id="@+id/linkedin_icon"
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:layout_below="@id/github_icon"
+                        android:layout_marginTop="15dp"
+
+                        android:src="@drawable/linkedin_icon" />
+
+
+                    <TextView
+                        android:id="@+id/github_link"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:layout_marginTop="12dp"
+                        android:text="https://github.com/AymenLass"
+                        android:layout_toEndOf="@id/github_icon"
+                        android:textColor="@color/_rectangle_7_color"
+                        android:textSize="16sp"
+                        android:layout_marginStart="10dp"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/linkedin_link"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="42dp"
+                        android:text="linkedin.com/in/aymen-lassoued"
+                        android:layout_toEndOf="@id/linkedin_icon"
+                        android:textColor="@color/_rectangle_7_color"
+                        android:textSize="16sp"
+                        android:layout_marginStart="10dp"/>
+                </RelativeLayout>
+
+
+                <RelativeLayout android:id="@+id/branding"
+                    android:layout_marginTop="47dp"
+                    android:layout_marginStart="79dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    >
+
+                    <ImageView android:id="@+id/popchoice_icon"
+                        android:src="@drawable/popchoice_icon"
+                        android:contentDescription="popchoice_icon"
+                        android:layout_marginStart="68dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_width="99dp"
+                        android:layout_height="108dp"
+                        android:layout_centerHorizontal="true"/>
+
+                    <TextView android:id="@+id/popchoice"
+                        android:textSize="45sp"
+                        android:textColor="@color/do_you_wanna_have_fun_or_do_you_want_something_serious__color"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginTop="105dp"
+                        android:layout_width="267.5dp"
+                        android:layout_height="82.5dp"
+                        android:text="@string/moviemate_string">
+
+                    </TextView>
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,151 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:layout_centerInParent="true">
+
+    <RelativeLayout
+        android:id="@+id/content_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <RelativeLayout
+            android:id="@+id/page_popchoice_ek1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <View
+                android:id="@+id/_bg__popchoice_ek2"
+                android:background="@drawable/_bg__popchoice_ek2_shape"
+                android:layout_width="368dp"
+                android:layout_height="750dp"
+                android:layout_centerHorizontal="true" />
+
+            <RelativeLayout
+                android:id="@+id/start_button"
+                android:layout_marginTop="541dp"
+                android:layout_marginStart="34dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true">
+
+                <View
+                    android:id="@+id/_rectangle_7"
+                    android:background="@drawable/_rectangle_7_shape"
+                    android:layout_width="325dp"
+                    android:layout_height="71dp" />
+
+                <TextView android:id="@+id/start"
+                    android:textStyle="bold"
+                    android:layout_gravity="center_horizontal|center"
+                    android:gravity="center"
+                    android:textSize="30sp"
+                    android:textColor="@color/_bg__popchoice_ek2_color"
+                    android:layout_marginLeft="-5dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_width="333dp"
+                    android:layout_height="80dp"
+                    android:text="@string/start_string"
+                    android:onClick="start"
+                    />
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/branding"
+                android:layout_marginTop="172dp"
+                android:layout_marginStart="79dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true">
+
+                <ImageView
+                    android:id="@+id/popchoice_icon"
+                    android:src="@drawable/popchoice_icon"
+                    android:contentDescription="popchoice_icon"
+                    android:layout_width="99dp"
+                    android:layout_height="108dp"
+                    android:layout_centerHorizontal="true" />
+
+                <TextView
+                    android:id="@+id/popchoice_ek3"
+                    android:layout_width="267.5dp"
+                    android:layout_height="82.5dp"
+                    android:layout_below="@id/popchoice_icon"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerHorizontal="false"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="-20dp"
+
+                    android:text="@string/moviemate_ek3_string"
+                    android:textColor="@color/popchoice_ek3_color"
+                    android:textSize="45sp" />
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/number_of_people"
+                android:layout_marginTop="375dp"
+                android:layout_marginStart="34dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"> <!-- Centering this layout horizontally -->
+
+                <View
+                    android:id="@+id/rectangle_1"
+                    android:background="@drawable/rectangle_1_shape"
+                    android:layout_width="325dp"
+                    android:layout_height="60dp" />
+
+                <EditText
+                    android:id="@+id/__how_many_people_"
+                    android:inputType=""
+                    android:layout_gravity="center_horizontal|center"
+                    android:gravity="center"
+                    android:textSize="18sp"
+                    android:textColor="@color/_bg__popchoice_ek2_color"
+                    android:layout_width="332dp"
+                    android:layout_height="65.8dp"
+                    android:hint="@string/__how_many_people__string"
+                    android:layout_centerHorizontal="true" />
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/movie_duration"
+                android:layout_marginTop="458dp"
+                android:layout_marginStart="34dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true">
+
+                <View
+                    android:id="@+id/rectangle_2"
+                    android:background="@drawable/rectangle_2_shape"
+                    android:layout_width="325dp"
+                    android:layout_height="60dp" />
+
+                <EditText
+                    android:id="@+id/__how_much_time_do_you_have_"
+                    android:inputType=""
+                    android:layout_gravity="center_horizontal|center"
+                    android:gravity="center"
+                    android:textSize="18sp"
+                    android:textColor="@color/_bg__popchoice_ek2_color"
+                    android:layout_width="332dp"
+                    android:layout_height="65.8dp"
+                    android:hint="@string/__how_much_time_do_you_have__string"
+                    android:layout_centerHorizontal="true" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>
+<!--tetharek el fou9 wela louta  : ScrollView-->
+<!--tetharek 3alimin wela 3alisar : HorizontalScrollView-->

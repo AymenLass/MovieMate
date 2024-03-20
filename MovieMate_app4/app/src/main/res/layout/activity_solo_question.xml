@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:gravity="center_horizontal">
+
+    <ScrollView android:id="@+id/questions_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true">
+
+        <RelativeLayout android:id="@+id/content_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            >
+
+            <RelativeLayout android:id="@+id/page_questions_view_ek1"
+                android:layout_marginTop="0dp"
+                android:layout_marginStart="0dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_centerHorizontal="true"
+
+                >
+
+                <View
+                    android:id="@+id/_bg__questions_view_ek2"
+                    android:layout_width="380dp"
+                    android:layout_height="800dp"
+                    android:layout_centerInParent="true"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="0dp"
+                    android:background="@drawable/_bg__questions_view_ek2_shape"
+                    android:layout_centerHorizontal="true"/>
+
+
+                <RelativeLayout android:id="@+id/let_s_go_button"
+                    android:layout_marginTop="713dp"
+                    android:layout_marginStart="34dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+
+                    >
+                    <View   android:id="@+id/_bg___let_s_go_button_ek1"
+                        android:background="@drawable/_bg___let_s_go_button_ek1_shape"
+                        android:layout_marginStart="-34dp"
+                        android:layout_marginTop="-713dp"
+                        android:layout_width="325dp"
+                        android:layout_height="71dp"
+                        android:layout_centerHorizontal="true"/>
+
+
+                    <View   android:id="@+id/rectangle_7"
+                        android:background="@drawable/rectangle_7_shape"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_width="325dp"
+                        android:layout_height="71dp"
+                        android:layout_centerHorizontal="true"/>
+
+                    <TextView android:id="@+id/let_s_go"
+                        android:textStyle="bold"
+                        android:layout_gravity="center_horizontal|center"
+                        android:gravity="center"
+                        android:textSize="30sp"
+                        android:textColor="@color/_bg__questions_view_ek2_color"
+                        android:layout_marginLeft="-5dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_width="333dp"
+                        android:layout_height="80dp"
+                        android:text="@string/let_s_go_string"
+                        android:onClick="let_s_go"
+                        android:layout_centerHorizontal="true"
+                        />
+                    <!--the onclick will be used later to call it as a function in the class that corresponds to this xml file-->
+
+
+
+                </RelativeLayout>
+
+
+                <RelativeLayout android:id="@+id/question_3"
+                    android:layout_marginTop="553dp"
+                    android:layout_marginStart="32dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    >
+
+                    <View   android:id="@+id/_bg__question_3_ek1"
+                        android:background="@drawable/_bg__question_3_ek1_shape"
+                        android:layout_marginStart="-32dp"
+                        android:layout_marginTop="-553dp"
+                        android:layout_width="328dp"
+                        android:layout_height="114dp"
+                        android:layout_centerHorizontal="true"/>
+
+
+                    <RelativeLayout android:id="@+id/textarea_3"
+                        android:layout_marginTop="50dp"
+                        android:layout_marginStart="0dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        >
+
+                        <View   android:id="@+id/_bg__textarea_3_ek1"
+                            android:background="@drawable/_bg__textarea_3_ek1_shape"
+                            android:layout_marginStart="-32dp"
+                            android:layout_marginTop="-603dp"
+                            android:layout_width="325dp"
+                            android:layout_height="64dp"
+                            android:layout_centerHorizontal="true"/>
+
+                        <View   android:id="@+id/rectangle_1"
+                            android:background="@drawable/rectangle_1_shape"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginTop="0dp"
+                            android:layout_width="325dp"
+                            android:layout_height="64dp"
+                            android:layout_centerHorizontal="true"/>
+
+                        <EditText android:id="@+id/i_want_to_watch_something_stupid_and_fun"
+                            android:textSize="14sp"
+                            android:textColor="@color/i_want_to_watch_something_stupid_and_fun_color"
+                            android:layout_marginLeft="11dp"
+                            android:layout_marginTop="9dp"
+                            android:layout_width="315.4dp"
+                            android:layout_height="45.4dp"
+                            android:hint="@string/i_want_to_watch_something_stupid_and_fun_string"
+                            android:layout_centerHorizontal="true"
+                            />
+
+                    </RelativeLayout>
+
+                    <TextView android:id="@+id/do_you_wanna_have_fun_or_do_you_want_something_serious_"
+                        android:textSize="16sp"
+                        android:textColor="@color/do_you_wanna_have_fun_or_do_you_want_something_serious__color"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_width="340.6dp"
+                        android:layout_height="50.6dp"
+                        android:text="@string/do_you_wanna_have_fun_or_do_you_want_something_serious__string"
+                        android:layout_centerHorizontal="true"
+                        />
+
+                </RelativeLayout>
+
+                <RelativeLayout android:id="@+id/question_2"
+                    android:layout_marginTop="404dp"
+                    android:layout_marginStart="32dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    >
+
+                    <View   android:id="@+id/_bg__question_2_ek1"
+                        android:background="@drawable/_bg__question_2_ek1_shape"
+                        android:layout_marginStart="-32dp"
+                        android:layout_marginTop="-404dp"
+                        android:layout_width="328dp"
+                        android:layout_height="113dp"
+                        android:layout_centerHorizontal="true"/>
+
+
+                    <RelativeLayout android:id="@+id/group_7"
+                        android:layout_marginTop="50dp"
+                        android:layout_marginStart="0dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        >
+
+                        <View   android:id="@+id/_bg__group_7_ek1"
+                            android:background="@drawable/_bg__group_7_ek1_shape"
+                            android:layout_marginStart="-32dp"
+                            android:layout_marginTop="-454dp"
+                            android:layout_width="325dp"
+                            android:layout_height="63dp"
+                            android:layout_centerHorizontal="true"/>
+
+                        <View   android:id="@+id/rectangle_1_ek1"
+                            android:background="@drawable/rectangle_1_ek1_shape"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginTop="0dp"
+                            android:layout_width="325dp"
+                            android:layout_height="63dp"
+                            android:layout_centerHorizontal="true"/>
+
+                        <EditText
+                            android:id="@+id/i_want_to_watch_movies_that_were_released_after_1990"
+                            android:textSize="14sp"
+                            android:textColor="@color/i_want_to_watch_something_stupid_and_fun_color"
+                            android:layout_marginLeft="11dp"
+                            android:layout_marginTop="8dp"
+                            android:layout_width="315.4dp"
+                            android:layout_height="47.4dp"
+                            android:hint="i_want_to_watch_something_stupid_and_fun_color"
+                            android:layout_centerHorizontal="true"
+                            />
+                    </RelativeLayout>
+
+                    <TextView android:id="@+id/are_you_in_the_mood_for_something_new_or_a_classic_"
+                        android:textSize="16sp"
+                        android:textColor="@color/do_you_wanna_have_fun_or_do_you_want_something_serious__color"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_width="340.6dp"
+                        android:layout_height="48.6dp"
+                        android:text="@string/are_you_in_the_mood_for_something_new_or_a_classic__string"
+                        android:layout_centerHorizontal="true"
+                        />
+
+                </RelativeLayout>
+
+
+                <RelativeLayout android:id="@+id/question_1"
+                    android:layout_marginTop="260dp"
+                    android:layout_marginStart="34dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    >
+
+                    <View   android:id="@+id/_bg__question_1_ek1"
+                        android:background="@drawable/_bg__question_1_ek1_shape"
+                        android:layout_marginStart="-34dp"
+                        android:layout_marginTop="-260dp"
+                        android:layout_width="328dp"
+                        android:layout_height="108dp"
+                        android:layout_centerHorizontal="true"/>
+
+
+                    <RelativeLayout android:id="@+id/group_4"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginStart="0dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        >
+
+                        <View   android:id="@+id/_bg__group_4_ek1"
+                            android:background="@drawable/_bg__group_4_ek1_shape"
+                            android:layout_marginStart="-34dp"
+                            android:layout_marginTop="-290dp"
+                            android:layout_width="325dp"
+                            android:layout_height="78dp"
+                            android:layout_centerHorizontal="true"/>
+
+                        <View   android:id="@+id/rectangle_1_ek2"
+                            android:background="@drawable/rectangle_1_ek2_shape"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginTop="0dp"
+                            android:layout_width="325dp"
+                            android:layout_height="78dp"
+                            android:layout_centerHorizontal="true"/>
+
+                        <EditText android:id="@+id/the_shawshank_redemption_because_it_taught_me_to_never_give_up_hope_no_matter_how_hard_life_gets"
+                            android:textSize="14sp"
+                            android:textColor="@color/do_you_wanna_have_fun_or_do_you_want_something_serious__color"
+                            android:layout_marginLeft="11dp"
+                            android:layout_marginTop="9dp"
+                            android:layout_width="315.4dp"
+                            android:layout_height="61.4dp"
+                            android:hint="@string/the_shawshank_redemption_because_it_taught_me_to_never_give_up_hope_no_matter_how_hard_life_gets_string"
+                            android:layout_centerHorizontal="true"
+                            />
+
+                    </RelativeLayout>
+
+
+                    <TextView android:id="@+id/what_s_your_favorite_movie_and_why_"
+                        android:textSize="16sp"
+                        android:textColor="@color/do_you_wanna_have_fun_or_do_you_want_something_serious__color"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_width="340.6dp"
+                        android:layout_height="30.6dp"
+                        android:text="@string/what_s_your_favorite_movie_and_why__string"
+                        android:layout_centerHorizontal="true"
+                        />
+
+                </RelativeLayout>
+
+
+                <RelativeLayout android:id="@+id/branding"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginStart="79dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    >
+
+                    <ImageView android:id="@+id/popchoice_icon"
+                        android:src="@drawable/popchoice_icon"
+                        android:contentDescription="popchoice_icon"
+                        android:layout_marginStart="68dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_width="99dp"
+                        android:layout_height="108dp" />
+
+                    <TextView android:id="@+id/popchoice"
+                        android:textSize="45sp"
+                        android:textColor="@color/do_you_wanna_have_fun_or_do_you_want_something_serious__color"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="105dp"
+                        android:layout_width="267.5dp"
+                        android:layout_height="82.5dp"
+                        android:text="@string/moviemate_string"
+                        />
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+    </ScrollView>
+</ScrollView>
+
+<!--lol ma thebech tharek 3alimin w 3alisar w hatlou HorizontalScrollView  vu-->

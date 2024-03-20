@@ -1,0 +1,134 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true">
+
+    <ScrollView android:id="@+id/movie_output_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true">
+
+        <RelativeLayout android:id="@+id/content_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true">
+
+
+
+            <RelativeLayout android:id="@+id/page_movie_output_view_ek1"
+                android:layout_marginTop="0dp"
+                android:layout_marginStart="0dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                >
+
+                <View
+                    android:id="@+id/_bg__movie_output_view_ek2"
+                    android:layout_width="400dp"
+                    android:layout_height="900dp"
+                    android:layout_alignTop="@+id/movie_info"
+                    android:layout_alignBottom="@+id/next_movie_button"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="-51dp"
+                    android:layout_marginBottom="-171dp"
+                    android:background="@drawable/_bg__movie_output_view_ek2_shape" />
+
+
+                <RelativeLayout
+                    android:id="@+id/next_movie_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/the_inspiring_story_of_an_astronaut_stranded_on_mars_who_needs_to_rely_on_his_ingenuity_to_come_back_to_earth"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="33dp"
+                    android:layout_centerHorizontal="true">
+
+                    <View
+                        android:id="@+id/rectangle_7"
+                        android:layout_width="325dp"
+                        android:layout_height="71dp"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="0dp"
+                        android:background="@drawable/rectangle_7_shape"
+                        android:layout_centerHorizontal="true"/>
+
+                    <TextView
+                        android:id="@+id/next_movie"
+                        android:layout_width="333dp"
+                        android:layout_height="80dp"
+                        android:layout_gravity="center_horizontal|center"
+                        android:gravity="center"
+                        android:textSize="30sp"
+                        android:textColor="@color/_bg__movie_output_view_ek2_color"
+                        android:text="@string/next_movie_string"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="-5dp"
+                        android:layout_marginTop="0dp"
+                        android:onClick="Next_Movie"/>
+
+                </RelativeLayout>
+
+
+
+                <RelativeLayout android:id="@+id/movie_info"
+                    android:layout_marginTop="51dp"
+                    android:layout_marginStart="33dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    >
+
+<!--                    <View   android:id="@+id/_bg__movie_info_ek1"-->
+<!--                        android:background="@drawable/_bg__movie_info_ek1_shape"-->
+<!--                        android:layout_marginStart="-33dp"-->
+<!--                        android:layout_marginTop="-51dp"-->
+<!--                        android:layout_width="326dp"-->
+<!--                        android:layout_height="654dp" />-->
+
+                    <ImageView android:id="@+id/image_5"
+                        android:src="@drawable/popchoice_icon"
+                        android:contentDescription="image_5"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_width="325dp"
+                        android:layout_height="480.43dp"
+                        android:layout_below="@id/the_martian__2015_">
+
+                    </ImageView>
+                    <TextView
+                        android:id="@+id/the_martian__2015_"
+                        android:layout_width="334dp"
+                        android:layout_height="60dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_gravity="center_horizontal|center"
+                        android:layout_marginLeft="-5dp"
+                        android:layout_marginTop="0dp"
+                        android:gravity="center"
+                        android:text="@string/app_name"
+                        android:textColor="@color/the_martian__2015__color"
+                        android:textSize="30sp"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/the_inspiring_story_of_an_astronaut_stranded_on_mars_who_needs_to_rely_on_his_ingenuity_to_come_back_to_earth"
+                    android:layout_width="340.8dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/movie_info"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="@string/app_name"
+                    android:textColor="@color/the_martian__2015__color"
+                    android:textSize="18sp"
+                    android:layout_centerHorizontal="true"/>
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+    </ScrollView>
+</RelativeLayout>
+<!--wrap content you use it when you want the cells to be dynamic always fits the text in-->
+<!--    layout_below+layout_marginTop bech tahser el content-->

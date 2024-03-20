@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:gravity="center_horizontal">
+
+
+
+    <ScrollView android:id="@+id/_1st_person_questions"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true">
+
+
+        <RelativeLayout android:id="@+id/content_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true">
+
+
+
+            <RelativeLayout android:id="@+id/page__1st_person_questions_ek1"
+                android:layout_marginTop="0dp"
+                android:layout_marginStart="0dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                >
+
+
+                <View   android:id="@+id/_bg___1st_person_questions_ek2"
+                    android:background="@drawable/_bg___1st_person_questions_ek2_shape"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_width="380dp"
+                    android:layout_height="852dp"
+                    android:layout_centerHorizontal="true"/>
+
+
+
+                <RelativeLayout android:id="@+id/question_4"
+                    android:layout_marginTop="570dp"
+                    android:layout_marginStart="34dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    >
+
+
+
+
+
+                    <RelativeLayout android:id="@+id/group_4"
+                        android:layout_marginTop="51dp"
+                        android:layout_marginStart="0dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        >
+
+
+
+
+                        <View
+                            android:id="@+id/rectangle_1"
+                            android:layout_width="325dp"
+                            android:layout_height="60dp"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginTop="0dp"
+                            android:background="@drawable/rectangle_1_shape"
+                            android:layout_centerHorizontal="true"/>
+
+                        <EditText
+                            android:id="@+id/tom_hanks_because_he_is_really_funny_and_can_do_the_voice_of_woody"
+                            android:layout_width="315.4dp"
+                            android:layout_height="44.4dp"
+                            android:layout_marginLeft="11dp"
+                            android:layout_marginTop="11dp"
+                            android:hint="@string/tom_hanks_because_he_is_really_funny_and_can_do_the_voice_of_woody_string"
+                            android:textColor="@color/tom_hanks_because_he_is_really_funny_and_can_do_the_voice_of_woody_color"
+                            android:textSize="14sp"
+                            android:layout_centerHorizontal="true"/>
+
+
+                    </RelativeLayout>
+
+
+
+                    <TextView android:id="@+id/which_famous_film_person_would_you_love_to_be_stranded_on_an_island_with_and_why_"
+                        android:textSize="16sp"
+                        android:textColor="@color/tom_hanks_because_he_is_really_funny_and_can_do_the_voice_of_woody_color"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_width="340.6dp"
+                        android:layout_height="48.6dp"
+                        android:text="@string/which_famous_film_person_would_you_love_to_be_stranded_on_an_island_with_and_why__string"
+
+                        android:layout_centerHorizontal="true"
+                        />
+
+                </RelativeLayout>
+
+
+
+                <RelativeLayout android:id="@+id/question_3"
+                    android:layout_marginTop="479dp"
+                    android:layout_marginStart="34dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    >
+
+<!--                    <View   android:id="@+id/_bg__question_3_ek1"-->
+<!--                        android:background="@drawable/_bg__question_3_ek1_shape"-->
+<!--                        android:layout_marginStart="-34dp"-->
+<!--                        android:layout_marginTop="-479dp"-->
+<!--                        android:layout_width="328dp"-->
+<!--                        android:layout_height="61dp" />-->
+
+
+                    <RelativeLayout android:id="@+id/group_7"
+                        android:layout_marginTop="36dp"
+                        android:layout_marginStart="0dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        >
+
+<!--                        <View   android:id="@+id/_bg__group_7_ek1"-->
+<!--                            android:background="@drawable/_bg__group_7_ek1_shape"-->
+<!--                            android:layout_marginStart="-34dp"-->
+<!--                            android:layout_marginTop="-515dp"-->
+<!--                            android:layout_width="49dp"-->
+<!--                            android:layout_height="25dp" />-->
+                        <!--#AKA E sandou9 el gris eli deyer bel kelma-->
+
+                        <View   android:id="@+id/rectangle_1_ek1"
+                            android:background="@drawable/rectangle_1_ek1_shape"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginTop="0dp"
+                            android:layout_width="49dp"
+                            android:layout_height="25dp" />
+
+                        <TextView android:id="@+id/fun"
+                            android:layout_gravity="center_horizontal|center"
+                            android:gravity="center"
+                            android:textSize="14sp"
+                            android:textColor="@color/tom_hanks_because_he_is_really_funny_and_can_do_the_voice_of_woody_color"
+                            android:layout_marginLeft="-2dp"
+                            android:layout_marginTop="0dp"
+                            android:layout_width="55.4dp"
+                            android:layout_height="29.4dp"
+                            android:text="@string/fun_string"
+                            />
+
+                    </RelativeLayout>
+
+
+                    <RelativeLayout android:id="@+id/group_8"
+                        android:layout_marginTop="36dp"
+                        android:layout_marginStart="58dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        >
+
+
+
+                        <View   android:id="@+id/rectangle_1_ek2"
+                            android:background="@drawable/rectangle_1_ek2_shape"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginTop="0dp"
+                            android:layout_width="81dp"
+                            android:layout_height="25dp" />
+
+                        <TextView android:id="@+id/serious"
+                            android:layout_gravity="center_horizontal|center"
+                            android:gravity="center"
+                            android:textSize="14sp"
+                            android:textColor="@color/tom_hanks_because_he_is_really_funny_and_can_do_the_voice_of_woody_color"
+                            android:layout_marginLeft="-2dp"
+                            android:layout_marginTop="0dp"
+                            android:layout_width="87.4dp"
+                            android:layout_height="29.4dp"
+                            android:text="@string/serious_string"
+                            />
+
+                    </RelativeLayout>
+
+
+                    <RelativeLayout android:id="@+id/group_9"
+                        android:layout_marginTop="36dp"
+                        android:layout_marginStart="148dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        >
+
+
+
+                        <View   android:id="@+id/rectangle_1_ek3"
+                            android:background="@drawable/rectangle_1_ek3_shape"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginTop="0dp"
+                            android:layout_width="85dp"
+                            android:layout_height="25dp" />
+
+                        <TextView android:id="@+id/inspiring"
+                            android:layout_gravity="center_horizontal|center"
+                            android:gravity="center"
+                            android:textSize="14sp"
+                            android:textColor="@color/tom_hanks_because_he_is_really_funny_and_can_do_the_voice_of_woody_color"
+                            android:layout_marginLeft="-2dp"
+                            android:layout_marginTop="0dp"
+                            android:layout_width="91.4dp"
+                            android:layout_height="29.4dp"
+                            android:text="@string/inspiring_string"
+                            />
+
+                    </RelativeLayout>
+
+
+                    <RelativeLayout android:id="@+id/group_10"
+                        android:layout_marginTop="36dp"
+                        android:layout_marginStart="242dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        >
+
+
+
+                        <View   android:id="@+id/rectangle_1_ek4"
+                            android:background="@drawable/rectangle_1_ek4_shape"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginTop="0dp"
+                            android:layout_width="59dp"
+                            android:layout_height="25dp" />
+
+                        <TextView android:id="@+id/scary"
+                            android:layout_gravity="center_horizontal|center"
+                            android:gravity="center"
+                            android:textSize="14sp"
+                            android:textColor="@color/tom_hanks_because_he_is_really_funny_and_can_do_the_voice_of_woody_color"
+                            android:layout_marginLeft="-2dp"
+                            android:layout_marginTop="0dp"
+                            android:layout_width="65.4dp"
+                            android:layout_height="29.4dp"
+                            android:text="@string/scary_string"
+                            />
+
+                    </RelativeLayout>
+
+                    <TextView android:id="@+id/what_are_you_in_the_mood_for_"
+                        android:textSize="16sp"
+                        android:textColor="@color/tom_hanks_because_he_is_really_funny_and_can_do_the_voice_of_woody_color"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_width="340.6dp"
+                        android:layout_height="30.6dp"
+                        android:text="@string/what_are_you_in_the_mood_for__string"
+                        android:layout_centerHorizontal="true"
+                        />
+
+                </RelativeLayout>
+
+
+
+
+
+
+
+<!--                <RelativeLayout-->
+<!--                    xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--                    android:id="@+id/question_2"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginStart="34dp"-->
+<!--                    android:layout_marginTop="369dp">-->
+
+<!--                    <View-->
+<!--                        android:id="@+id/_bg__question_2_ek1"-->
+<!--                        android:layout_width="328dp"-->
+<!--                        android:layout_height="80dp"-->
+<!--                        android:layout_marginStart="-34dp"-->
+<!--                        android:layout_marginTop="-369dp"-->
+<!--                        android:background="@drawable/_bg__question_2_ek1_shape" />-->
+
+<!--                    <Spinner-->
+<!--                        android:id="@+id/dropdown_menu"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_marginStart="0dp"-->
+<!--                        android:layout_marginTop="55dp"-->
+<!--                        android:spinnerMode="dropdown" />-->
+
+<!--                    <TextView-->
+<!--                        android:id="@+id/are_you_in_the_mood_for_something_new_or_a_classic_"-->
+<!--                        android:layout_width="340.6dp"-->
+<!--                        android:layout_height="48.6dp"-->
+<!--                        android:layout_marginLeft="2dp"-->
+<!--                        android:layout_marginTop="0dp"-->
+<!--                        android:text="@string/are_you_in_the_mood_for_something_new_or_a_classic__string"-->
+<!--                        android:textColor="@color/tom_hanks_because_he_is_really_funny_and_can_do_the_voice_of_woody_color"-->
+<!--                        android:textSize="16sp" />-->
+
+<!--                </RelativeLayout>-->
+
+
+
+
+
+
+
+
+
+
+
+                <RelativeLayout android:id="@+id/question_2"
+                    android:layout_marginTop="369dp"
+                    android:layout_marginStart="34dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    >
+
+
+
+
+                    <RelativeLayout android:id="@+id/group_7_ek2"
+                        android:layout_marginTop="55dp"
+                        android:layout_marginStart="0dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        >
+
+
+
+                        <View   android:id="@+id/rectangle_1_ek5"
+                            android:background="@drawable/rectangle_1_ek5_shape"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginTop="0dp"
+                            android:layout_width="64dp"
+                            android:layout_height="25dp" />
+
+                        <TextView android:id="@+id/newTextView"
+                            android:layout_gravity="center_horizontal|center"
+                            android:gravity="center"
+                            android:textSize="14sp"
+                            android:textColor="@color/tom_hanks_because_he_is_really_funny_and_can_do_the_voice_of_woody_color"
+                            android:layout_marginLeft="-2dp"
+                            android:layout_marginTop="0dp"
+                            android:layout_width="70.4dp"
+                            android:layout_height="29.4dp"
+
+                            android:text="@string/new_string"
+                            />
+
+                    </RelativeLayout>
+
+
+                        <RelativeLayout android:id="@+id/group_8_ek2"
+                        android:layout_marginTop="55dp"
+                        android:layout_marginStart="73dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        >
+
+<!--                        <View   android:id="@+id/_bg__group_8_ek3"-->
+<!--                            android:background="@drawable/_bg__group_8_ek3_shape"-->
+<!--                            android:layout_marginStart="-107dp"-->
+<!--                            android:layout_marginTop="-424dp"-->
+<!--                            android:layout_width="81dp"-->
+<!--                            android:layout_height="25dp" />-->
+
+                        <View   android:id="@+id/rectangle_1_ek6"
+                            android:background="@drawable/rectangle_1_ek6_shape"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginTop="0dp"
+                            android:layout_width="81dp"
+                            android:layout_height="26dp" />
+
+                        <TextView
+                            android:id="@+id/classic"
+                            android:layout_width="87.4dp"
+                            android:layout_height="29.4dp"
+                            android:layout_gravity="center_horizontal|center"
+                            android:layout_marginLeft="-2dp"
+
+                            android:gravity="center"
+                            android:text="@string/classic_string"
+                            android:textColor="@color/tom_hanks_because_he_is_really_funny_and_can_do_the_voice_of_woody_color"
+                            android:textSize="14sp" />
+
+
+                    </RelativeLayout>
+
+                    <TextView android:id="@+id/are_you_in_the_mood_for_something_new_or_a_classic_"
+                        android:textSize="16sp"
+                        android:textColor="@color/tom_hanks_because_he_is_really_funny_and_can_do_the_voice_of_woody_color"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_width="340.6dp"
+                        android:layout_height="48.6dp"
+                        android:text="@string/are_you_in_the_mood_for_something_new_or_a_classic__string"
+                        android:layout_centerHorizontal="true"
+                        />
+
+                </RelativeLayout>
+
+
+                <RelativeLayout android:id="@+id/question_1"
+                    android:layout_marginTop="231dp"
+                    android:layout_marginStart="36dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    >
+
+
+
+
+                    <RelativeLayout android:id="@+id/group_4_ek2"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginStart="0dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        >
+
+
+
+                        <View   android:id="@+id/rectangle_1_ek7"
+                            android:background="@drawable/rectangle_1_ek7_shape"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginTop="0dp"
+                            android:layout_width="325dp"
+                            android:layout_height="78dp"
+                            android:layout_centerHorizontal="true"/>
+
+                        <EditText android:id="@+id/the_shawshank_redemption_because_it_taught_me_to_never_give_up_hope_no_matter_how_hard_life_gets"
+                            android:textSize="14sp"
+                            android:textColor="@color/tom_hanks_because_he_is_really_funny_and_can_do_the_voice_of_woody_color"
+                            android:layout_marginLeft="11dp"
+                            android:layout_marginTop="9dp"
+                            android:layout_width="315.4dp"
+                            android:layout_height="61.4dp"
+                            android:hint="@string/the_shawshank_redemption_because_it_taught_me_to_never_give_up_hope_no_matter_how_hard_life_gets_string"
+                            android:layout_centerHorizontal="true"/>
+
+                    </RelativeLayout>
+
+                    <TextView android:id="@+id/what_s_your_favorite_movie_and_why_"
+                        android:textSize="16sp"
+                        android:textColor="@color/tom_hanks_because_he_is_really_funny_and_can_do_the_voice_of_woody_color"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_width="340.6dp"
+                        android:layout_height="30.6dp"
+                        android:text="@string/what_s_your_favorite_movie_and_why__string"
+                        android:layout_centerHorizontal="true"
+                        />
+
+                </RelativeLayout>
+
+
+                <RelativeLayout android:id="@+id/next_person_button"
+                    android:layout_marginTop="740dp"
+                    android:layout_marginStart="34dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    >
+
+
+                    <View   android:id="@+id/rectangle_7"
+                        android:background="@drawable/rectangle_7_shape"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_width="325dp"
+                        android:layout_height="71dp" />
+
+                    <TextView android:id="@+id/next_person"
+                        android:textStyle="bold"
+                        android:layout_gravity="center_horizontal|center"
+                        android:gravity="center"
+                        android:textSize="30sp"
+                        android:textColor="@color/_bg___1st_person_questions_ek2_color"
+                        android:layout_marginLeft="-5dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_width="333dp"
+                        android:layout_height="80dp"
+                        android:text="@string/next_person_string"
+                        android:onClick="Next_Person"
+                        android:layout_centerHorizontal="true"
+                        />
+
+                </RelativeLayout>
+
+
+                <RelativeLayout android:id="@+id/branding"
+                    android:layout_marginTop="32dp"
+                    android:layout_marginStart="147dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    >
+
+
+
+                    <ImageView android:id="@+id/popchoice_icon"
+                        android:src="@drawable/popchoice_icon"
+                        android:contentDescription="popchoice_icon"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_width="99dp"
+                        android:layout_height="108dp"
+                        android:layout_centerHorizontal="true"/>
+
+                    <TextView android:id="@+id/_1"
+                        android:textSize="50sp"
+                        android:textColor="@color/tom_hanks_because_he_is_really_funny_and_can_do_the_voice_of_woody_color"
+                        android:layout_marginLeft="39dp"
+                        android:layout_marginTop="108dp"
+                        android:layout_width="56dp"
+                        android:layout_height="81dp"
+                        android:text="@string/_1_string"
+                        />
+
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+    </ScrollView>
+</ScrollView>
+

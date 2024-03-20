@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- popchoice strings -->
+
+    <string name="app_name">MovieMate</string>
+    <string name="ek_img_content">ExportKit Image</string>
+    <string name="start_string">Start</string>
+    <string name="moviemate_ek3_string">MovieMate</string>
+    <string name="__how_many_people__string">How many people?</string>
+    <string name="__how_much_time_do_you_have__string">How much time do you have?</string>
+    <string name="Thank_You_For_Using_The_App">Thank you for using the app</string>
+    <!-- Additional strings -->
+    <string name="go_again_string">Go Again</string>
+    <string name="school_of_rock__2009__string">School of Rock (2009)</string>
+    <string name="a_fun_and_stupid_movie_about_a_wannabe_rocker_turned_fraud_substitute_teacher_forming_a_rock_band_with_his_students_to_win_the_battle_of_the_bands_string">A fun and stupid movie about a wannabe rocker turned fraud substitute teacher forming a rock band with his students to win the Battle of the Bands</string>
+
+    <string name="tom_hanks_because_he_is_really_funny_and_can_do_the_voice_of_woody_string">Tom Hanks because he is really funny and can do the voice of Woody</string>
+    <string name="which_famous_film_person_would_you_love_to_be_stranded_on_an_island_with_and_why__string">Which famous film person would you love to be stranded on an island with and why?</string>
+    <string name="fun_string">Fun</string>
+    <string name="serious_string">Serious</string>
+    <string name="inspiring_string">Inspiring</string>
+    <string name="scary_string">Scary</string>
+    <string name="what_are_you_in_the_mood_for__string">What are you in the mood for?</string>
+    <string name="new_string">New</string>
+    <string name="classic_string">Classic</string>
+    <string name="are_you_in_the_mood_for_something_new_or_a_classic__string">Are you in the mood for something new or a classic?</string>
+    <string name="the_shawshank_redemption_because_it_taught_me_to_never_give_up_hope_no_matter_how_hard_life_gets_string">The Shawshank Redemption because it taught me to never give up hope no matter how hard life gets</string>
+    <string name="what_s_your_favorite_movie_and_why__string">What s your favorite movie and why?</string>
+    <string name="next_person_string">Next Person</string>
+    <string name="_1_string">1</string>
+    <string name="_2_string">2</string>
+    <string name="_3_string">3</string>
+    <string name="_4_string">4</string>
+    <string name="_5_string">5</string>
+    <string name="_6_string">6</string>
+    <string name="_7_string">7</string>
+    <string name="_8_string">8</string>
+    <string name="_9_string">9</string>
+    <string name="_10_string">10</string>
+
+    <string name="_11_string">11</string>
+    <string name="_12_string">12</string>
+    <string name="_13_string">13</string>
+    <string name="_14_string">14</string>
+    <string name="_15_string">15</string>
+    <string name="next_movie_string">Next Movie</string>
+    <string name="moviemate_string">MovieMate</string>
+    <string name="i_want_to_watch_movies_that_were_released_after_1990_string">I want to watch movies that were released after 1990</string>
+    <string name="do_you_wanna_have_fun_or_do_you_want_something_serious__string">Do you wanna have fun or do you want something serious?</string>
+    <string name="i_want_to_watch_something_stupid_and_fun_string">I want to watch something stupid and fun</string>
+    <string name="let_s_go_string">Let s Go</string>
+    <string-array name="dropdown_options">
+        <item>New</item>
+        <item>Classic</item>
+    </string-array>
+</resources>
