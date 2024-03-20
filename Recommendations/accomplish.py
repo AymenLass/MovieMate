@@ -1,6 +1,6 @@
 import requests
 
-omdbapi_API_KEY = "2f87f01f"
+omdbapi_API_KEY = "???"
 
 
 def get_movie_poster(movie_name, year_of_release):
