@@ -8,9 +8,9 @@ MovieMate is an innovative movie recommendation application that leverages cutti
 
 - **Web Scraping:** Utilizing web scraping techniques, MovieMate extracts relevant data related to movies from various sources, enriching its recommendation database with up-to-date information.
 
-- **Pretrained Model Embedding:** Each movie in the database is embedded into a 1024-dimensional vector space using a pretrained model (e.g., e5-large-v2), enabling efficient similarity calculations for recommendation purposes.
+- **Pretrained Model Embedding:** Each movie in the database is embedded into a 1024-dimensional vector space using a pretrained model (e5-large-v2), enabling efficient similarity calculations for recommendation purposes.
 
-- **Vector Database:** Movie data, represented as embedded vectors, is stored in a vector database (e.g., Supabase), facilitating quick and scalable access to movie information.
+- **Vector Database:** Movie data, represented as embedded vectors, is stored in a vector database (Supabase), facilitating quick and scalable access to movie information.
 
 - **Flask Server:** A Flask server manages the flow of data between the mobile app and the inference engine, handling REST API requests and responses effectively.
 
@@ -38,7 +38,7 @@ MovieMate is an innovative movie recommendation application that leverages cutti
 - Python
 - Flask
 - Web Scraping
-- Pretrained Models (e.g., e5-large-v2)
+- Pretrained Models (e5-large-v2)
 - Supabase (Vector Database)
 - Hugging Face API
 - OMDB API
