@@ -1,3 +1,8 @@
+
+
+![Uploading Ajouter un titre (2).png…]()
+
+
 # MovieMate: Movie Recommendation App
 
 MovieMate is an innovative movie recommendation application that leverages cutting-edge technologies to provide personalized movie suggestions tailored to the preferences of its users. By combining dynamic pagination, web scraping, machine learning, and natural language processing, MovieMate delivers a seamless and intuitive user experience.
