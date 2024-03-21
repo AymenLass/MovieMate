@@ -45,7 +45,7 @@ MovieMate is an innovative movie recommendation application that leverages cutti
 - Python
 - Flask
 - Web Scraping
-- Pretrained Models (e5-large-v2)
+- Pretrained Model (e5-large-v2)
 - Supabase (Vector Database)
 - Hugging Face API
 - OMDB API
