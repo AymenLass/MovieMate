@@ -1,4 +1,3 @@
-[![Version française](https://img.shields.io/badge/Lire%20en-Fran%C3%A7ais-blue?style=for-the-badge&logo=appveyor)](https://github.com/AymenLass/MovieMate/blob/main/README.md)
 
 <p align = "center">
 <img src="https://github.com/AymenLass/MovieMate/blob/main/Recommendations/App_poster.png">
