@@ -1,6 +1,6 @@
 
 <p align = "center">
-<img src="https://mega.nz/fm/qVhDDYaJ">
+<img src="https://github.com/AymenLass/MovieMate/blob/main/Recommendations/App_poster.png">
 </p>
 
 
