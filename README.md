@@ -1,4 +1,4 @@
-[![Language](https://img.shields.io/badge/Language-Swift_5.7-orange.svg)]()
+
 <p align = "center">
 <img src="https://github.com/AymenLass/MovieMate/blob/main/Recommendations/App_poster.png">
 </p>
