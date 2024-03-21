@@ -1,6 +1,8 @@
 
+<p align = "center">
+<img src="https://mega.nz/fm/qVhDDYaJ">
+</p>
 
-![Uploading Ajouter un titre (2).png…]()
 
 
 # MovieMate: Movie Recommendation App
